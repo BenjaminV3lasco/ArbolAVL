@@ -3,12 +3,13 @@ package arbolavl;
  
 public class Arbolito {
     private NodoAvl raiz;
+    
     //Constructor
     public Arbolito(){
         raiz=null;
     }
     public NodoAvl obtenerRaiz(){
-    return raiz
+    return raiz;
     }
     //Método Buscar
     public NodoAvl busqueda(int d, NodoAvl r){

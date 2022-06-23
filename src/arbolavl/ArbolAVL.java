@@ -9,7 +9,6 @@ public class ArbolAVL {
         Arbolito Arbol = new Arbolito();
         Arbol.insertarAvl(5);
         Arbol.insertarAvl(6);
-        Arbol.insertarAvl(12);
         Arbol.insertarAvl(3);
         Arbol.insertarAvl(1);
         Arbol.insertarAvl(4);
@@ -17,7 +16,7 @@ public class ArbolAVL {
             //Menú
             System.out.println("¡Bienvenido al menú para crear un Árbol Avl!");
         do{
-            System.out.println("\nIngrese 1 para insertar un nodo");
+            System.out.println("Ingrese 1 para insertar un nodo");
             System.out.println("Ingrese 2 para recorrer el árbol");
             System.out.println("Ingrese 3 para salir");
             respuesta=sc.nextInt();
@@ -59,6 +58,6 @@ public class ArbolAVL {
                 }    
         }while(respuesta<3);
     }
-    }
+ }
     
-}
+

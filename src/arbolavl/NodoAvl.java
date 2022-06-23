@@ -13,7 +13,21 @@ public class NodoAvl {
         this.hijoIzq=null;
         this.hijoDcho=null;
     }
-   
+   public NodoAvl getIzquierdo() {
+        return this.hijoIzq;
+    }
+
+    public void setIzquierdo(NodoAvl hijoIzq) {
+        this.hijoIzq = hijoIzq;
+    }
+
+    public NodoAvl getDerecho() {
+        return this.hijoDcho;
+    }
+
+    public void setDerecho(NodoAvl hijoDcho) {
+        this.hijoDcho = hijoDcho;
+    }
     
     void visitar()
     {

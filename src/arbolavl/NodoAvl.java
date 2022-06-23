@@ -13,4 +13,10 @@ public class NodoAvl {
         this.hijoIzq=null;
         this.hijoDcho=null;
     }
+   
+    
+    void visitar()
+    {
+    System.out.print(dato + " ");
+    }
 }

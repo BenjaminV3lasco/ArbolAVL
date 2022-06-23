@@ -6,6 +6,13 @@ public class ArbolAVL {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int respuesta, respuesta_arbol;
+        Arbolito Arbol = new Arbolito();
+        Arbol.insertarAvl(5);
+        Arbol.insertarAvl(6);
+        Arbol.insertarAvl(12);
+        Arbol.insertarAvl(3);
+        Arbol.insertarAvl(1);
+        Arbol.insertarAvl(4);
 
             //Menú
             System.out.println("¡Bienvenido al menú para crear un Árbol Avl!");
@@ -37,15 +44,15 @@ public class ArbolAVL {
                     switch(respuesta_arbol){
                         case 1:
                     System.out.println("Recorrido en Inorden:");
-                    
+                    Arbol.preorden(Arbol.obtenerRaiz());
                     break;
                         case 2:
                     System.out.println("Recorrido en Preorden:");
-                    
+                    Arbol.preorden(Arbol.obtenerRaiz());
                      break;
                         case 3:
                      System.out.println("Recorrido en Postorden:");
-                     
+                     Arbol.postorden(Arbol.obtenerRaiz());
                      break;
                     }
                     break;

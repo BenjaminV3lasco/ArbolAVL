@@ -12,11 +12,11 @@ public class ArbolAVL {
         Arbol.insertarAvl(3);
         Arbol.insertarAvl(1);
         Arbol.insertarAvl(4);
-
+        Arbol.insertarAvl(10);
             //Menú
             System.out.println("¡Bienvenido al menú para crear un Árbol Avl!");
         do{
-            System.out.println("Ingrese 1 para insertar un nodo");
+            System.out.println("\nIngrese 1 para insertar un nodo");
             System.out.println("Ingrese 2 para recorrer el árbol");
             System.out.println("Ingrese 3 para salir");
             respuesta=sc.nextInt();
